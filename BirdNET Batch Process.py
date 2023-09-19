@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 # If required
 # Set up for mac
 # xcode-select --install
@@ -19,8 +16,6 @@
 # git clone https://github.com/kahst/BirdNET-Analyzer.git
 # cd BirdNET-Analyzer
 # pip install birdnetlib
-
-
 
 from birdnetlib import Recording
 from birdnetlib.analyzer import Analyzer
