@@ -1,18 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[10]:
-
-
 # https://github.com/macaodha/batdetect2/blob/main/batdetect2_notebook.ipynb
 from batdetect2 import api, plot
 import os
 import librosa
 import soundfile
 import csv
-
-
-# In[11]:
 
 
 # Configure the run
