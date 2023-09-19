@@ -4,6 +4,24 @@
 # In[ ]:
 
 
+# If required
+# Set up for mac
+# xcode-select --install
+# Apple silicon
+# curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh -o ~/Downloads/Miniconda3-latest-MacOSX-arm64.sh
+# bash ~/Downloads/Miniconda3-latest-MacOSX-arm64.sh -b -p $HOME/miniconda
+# The installer prompts “Do you wish the installer to initialize Miniconda3 by running conda init?” We recommend “yes”.
+# conda create -n birdnet-analyzer python=3.10 -c conda-forge -y
+# conda activate birdnet-analyzer
+# conda install -c apple tensorflow-deps
+# python -m pip install tensorflow-macos tensorflow-metal
+# conda install -c conda-forge librosa resampy -y
+# git clone https://github.com/kahst/BirdNET-Analyzer.git
+# cd BirdNET-Analyzer
+# pip install birdnetlib
+
+
+
 from birdnetlib import Recording
 from birdnetlib.analyzer import Analyzer
 from datetime import datetime
@@ -14,7 +32,7 @@ import os
 analyzer = Analyzer()
 
 # Specify the directory containing the WAV files.
-directory = "Your_audio_file_directory"
+directory = "your_audio_file_directory"
 
 # Create a list to store all detections from each file
 all_detections = []
@@ -36,7 +54,7 @@ for filename in os.listdir(directory):
             all_detections.append(detection)
 
 # Define the output CSV file path.
-output_csv_path = "File_name.csv"
+output_csv_path = "your_file_name.csv"
 
 # Write the detections to a CSV file.
 with open(output_csv_path, "w", newline="") as file:
