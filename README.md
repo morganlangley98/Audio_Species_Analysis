@@ -1,7 +1,7 @@
 # Audio_Species_Analysis
 This is a user friendly guide to analysing wav. audio files for bird and bat species diversity in Jupyter notebooks.
 
-I wrote these scripts for my thesis at UCL 'Restoration Site Attributes Shape Acoustic Landscapes'.
+With the rise in easily accessable recording devices, I thought it would be great to have an easy option available for less-code minded people to analyse their files for species.
 
 I did not write the models, only the implementation.
 
