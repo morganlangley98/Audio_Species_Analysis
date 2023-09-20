@@ -15,7 +15,7 @@ All code relating to the model and downloading the required packages can be foun
 The Jupyter notebooks implementation will analyse your file of audio clips and produce a CSV file of the Bat species with the "recording_id", "start_time", "end_time", "low_freq", "high_freq", "class", "class_prob" and "det_prob" as columns.
 
 
-All code relating to the model and downloading the required packages can be found here # https://github.com/macaodha/batdetect2/blob/main/batdetect2_notebook.ipynb.
+All code relating to the model and downloading the required packages can be found here https://github.com/macaodha/batdetect2/blob/main/batdetect2_notebook.ipynb.
 
 # MetaMoth
 This is a great package that unlockes the associated meta data with each audio moth file. https://github.com/mbsantiago/metamoth
