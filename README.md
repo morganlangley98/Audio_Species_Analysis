@@ -8,7 +8,7 @@ After you have installed all the necessary packages and saved the analyzer.py fi
 I did not create the models, only wrote the code for implementation.
 
 # BirdNET
-The Jupyter notebooks implementation will analyse your file of audio clips and produce a CSV file of the Bird species with the "recording_id", "common_name", "scientific_name", "start_time", "end_time" and "confidence" as columns. 
+The Jupyter notebooks implementation will analyse your folder of audio clips and produce a CSV file of the Bird species with the "recording_id", "common_name", "scientific_name", "start_time", "end_time" and "confidence" as columns. 
 
 Click implementation:
 
@@ -17,7 +17,7 @@ Click implementation:
 All code relating to the model and downloading the required packages can be found here [https://github.com/kahst/BirdNET-Analyzer/blob/main/README.md](https://github.com/kahst/BirdNET-Analyzer/tree/main).
 
 # BatDetect2
-The Jupyter notebooks implementation will analyse your file of audio clips and produce a CSV file of the Bat species with the "recording_id", "start_time", "end_time", "low_freq", "high_freq", "class", "class_prob" and "det_prob" as columns.
+The Jupyter notebooks implementation will analyse your folder of audio clips and produce a CSV file of the Bat species with the "recording_id", "start_time", "end_time", "low_freq", "high_freq", "class", "class_prob" and "det_prob" as columns.
 
 Click implementation:
 
