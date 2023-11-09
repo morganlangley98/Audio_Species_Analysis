@@ -3,7 +3,7 @@ This is a user friendly guide to analysing wav. audio files for bird and bat spe
 
 With the rise in easily accessable recording devices, I thought it would be great to have an easy option available for less-code minded people to analyse their files for species. If you are interested in monitoring for birds and bats yourself, I would reccomend using an AudioMoth https://www.openacousticdevices.info/audiomoth.
 
-After you have installed all the necessary packages and saved the analyzer.py files on your local host, you can use the command line implementation to analyse your files in one line of code.
+After you have installed all the necessary packages and saved the analyzer.py files in your local files, you can use the command line implementation to analyse your files in one line of code.
 
 I did not create the models, only wrote the code for implementation.
 
